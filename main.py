@@ -7,9 +7,10 @@ st.title('Culture Fit Visualizer (PoC)')
 
 # 企業データの定義
 company_data = {
-    '企業A': {'Tech': 90, 'Speed': 80, 'Team': 40, 'Biz': 30},
-    '企業B': {'Tech': 30, 'Speed': 50, 'Team': 90, 'Biz': 60},
-    '企業C': {'Tech': 50, 'Speed': 90, 'Team': 30, 'Biz': 90}
+    "株式会社メルカリ風": {"Tech": 95, "Speed": 90, "Team": 40, "Biz": 60},
+    "株式会社リクルート風": {"Tech": 60, "Speed": 95, "Team": 50, "Biz": 100},
+    "トヨタ自動車株式会社風": {"Tech": 70, "Speed": 40, "Team": 90, "Biz": 80},
+    "Google Japan風": {"Tech": 100, "Speed": 70, "Team": 60, "Biz": 80},
 }
 
 # サイドバーにスライダーを配置
